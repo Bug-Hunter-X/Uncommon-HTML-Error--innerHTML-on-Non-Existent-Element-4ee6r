@@ -1,0 +1,1 @@
+This repository demonstrates a subtle HTML error related to manipulating the `innerHTML` property of a non-existent DOM element. The `bug.html` file shows the problematic code, while `solution.html` provides a corrected version.  This type of error is uncommon, often missed in code reviews, and can lead to unexpected behavior or JavaScript errors.
