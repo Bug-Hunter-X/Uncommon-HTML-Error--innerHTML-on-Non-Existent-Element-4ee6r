@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+  <script>
+    //Check if the element exists before modifying it
+    const element = document.getElementById('myDiv');
+    if(element) {
+        element.innerHTML = "Text modified correctly.";
+    } else {
+        console.error('Element not found');
+    }
+  </script>
+</body>
+</html>
